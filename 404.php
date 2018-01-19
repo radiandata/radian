@@ -13,7 +13,7 @@ get_header(); ?>
 
         <section class="error-404 not-found">
             <header class="header">
-                <h1 class="h1"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'radian' ); ?></h1>
+                <h1 class="h1"><?php esc_html_e( 'Dang! That page can&rsquo;t be found.', 'radian' ); ?></h1>
             </header><!-- .page-header -->
 
             <div class="page-content">
