@@ -44,7 +44,7 @@ get_header(); ?>
                 'smallest'                  => 1,
                 'largest'                   => 1,
                 'unit'                      => 'rem',
-                'number'                    => 10,
+                'number'                    => 4,
                 'format'                    => 'flat',
                 'orderby'                   => 'count',
                 'order'                     => 'ASC',
