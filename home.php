@@ -50,7 +50,7 @@ get_header(); ?>
                 'order'                     => 'ASC',
                 'link'                      => 'view',
                 'separator'                 => "\n",
-                'taxonomy'                  => array('post_tag', 'category'),
+                'taxonomy'                  => array('category'),
                 'echo'                      => true,
             );
             wp_tag_cloud($args);
