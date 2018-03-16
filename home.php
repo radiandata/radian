@@ -78,14 +78,6 @@ get_header(); ?>
                             <a href="<?php echo get_term_link( $category->slug, 'category'); ?>" rel="tag" class="btn btn-primary btn-sm mr-2 text-lowercase <?php echo $category->slug; ?>" style="border-color: white;"># <?php echo $category->name; ?></a>
                         <?php endforeach; ?>
                     <?php endif; ?>
-
-                    <?php
-                    $tags = get_the_terms( $post->ID, 'post_tag' );
-                    if ($tags && ! is_wp_error($tags)): ?>
-                        <?php foreach($tags as $tag): ?>
-                            <a href="<?php echo get_term_link( $tag->slug, 'post_tag'); ?>" rel="tag" class="btn btn-primary btn-sm mr-2 text-lowercase <?php echo $tag->slug; ?>" style="border-color: white;"># <?php echo $tag->name; ?></a>
-                        <?php endforeach; ?>
-                    <?php endif; ?>
                 </div>
 
             </div>
